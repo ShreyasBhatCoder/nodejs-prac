@@ -19,11 +19,11 @@ app.get("/movies", async (req: Request, res: Response) => {
 });
 
 
-app.get("/test/:id", (req: Request, res: Response) => {
-    const id = parseInt(req.params.id as string);
+// app.get("/test/:id", (req: Request, res: Response) => {
+//     const id = parseInt(req.params.id as string);
 
-    res.json({id});
-})
+//     res.json({id});
+// })
 
 
 
